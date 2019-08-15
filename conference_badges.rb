@@ -1,11 +1,13 @@
 # Write your code here.
 
-guests = ["Edsger", "Ada", "Charles", Alan, Grace, Linus, and Matz]
+guests = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+
 def badge_maker(name)
   puts "Hello, my name is #{name}"
 end
 
-def batch_badge_creator(arr)
+def batch_badge_creator(myguestlist)
+  new_arraylist
   #takes an array of names as argument
   #returns an array of badge messages
   arr.each {|n| puts "Hello, #{n}!"
