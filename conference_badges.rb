@@ -6,7 +6,7 @@ end
 def batch_badge_creator(arr)
   #takes an array of names as argument
   #returns an array of badge messages
-  arr.each {|n|
+  arr.each {|n| puts "Hello, #{n}!"
   
 def assign_rooms
   #takes list of speakers and assigns a room only one room
