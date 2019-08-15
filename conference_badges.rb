@@ -1,4 +1,6 @@
 # Write your code here.
+
+guests 
 def badge_maker(name)
   puts "Hello, my name is #{name}"
 end
