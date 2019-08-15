@@ -10,7 +10,7 @@ def batch_badge_creator(array)
   new_newaray[]
   #takes an array of names as argument
   #returns an array of badge messages
-  array.each {|n| puts "Hello, #{n}!"
+  array.each do |name| puts "Hello, #{n}!"
 end
   
 def assign_rooms(arr)
