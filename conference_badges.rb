@@ -1,4 +1,4 @@
 # Write your code here.
-def badge_maker(String)
+def badge_maker(name)
   puts "Hello, my name is #{String}
 end
