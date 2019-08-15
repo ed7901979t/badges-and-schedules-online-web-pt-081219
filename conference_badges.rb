@@ -7,7 +7,7 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(myguestlist)
-  new_arraylist
+  new_myguestliest[]
   #takes an array of names as argument
   #returns an array of badge messages
   arr.each {|n| puts "Hello, #{n}!"
