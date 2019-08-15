@@ -7,10 +7,10 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(array)
-  new_myguestliest[]
+  new_newaray[]
   #takes an array of names as argument
   #returns an array of badge messages
-  arr.each {|n| puts "Hello, #{n}!"
+  array.each {|n| puts "Hello, #{n}!"
 end
   
 def assign_rooms(arr)
