@@ -15,18 +15,25 @@ end
 return new_array
 end
   
-def assign_rooms(arr)
-  #takes list of speakers and assigns a room only one room
-  #1-7 return list of rooms as a message...
-  room_numbers[1,2,3,4,5,6,7]
-  arr.each_with_index {|n|  "You'll be assigned to room #{room_numbers.index}!"}
+def assign_rooms(array)
+  new_array = []
+  counter = 1
+  array.each do |name|
+    new_array.push("Hello, #{name}! You'll be assigned to room #{counter}!")
+    counter += 1
+  end
+  return nuarray
 end
-  
-def printer
-  #output first results of batch_badge_creator
-  #assign_rooms iterate for puts
-arr.each { |n| print "Hello #{batch_badge_creator}! You'll be assigned to room #{room_numbers.index}!"} }
 
-end
+ 
+
+def printer(array)
+  batch_badge_creator(array).each do |id|
+    puts id
+  end 
   
+  assign_rooms(array).each do |id|
+    puts id 
+  end
+end 
   
